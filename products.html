@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang=" en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Harshna Haswani">
+  <meta name="description" content="Ecommerce site for chocolates, cookies, and more">
+  <title> Melting Moments — Our Products</title>
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="/styles/main.css">
+
+</head>
+
+<body>
+
+
+
+  <nav class="nav nav-site" role="main">
+    <a class="logo" href="/">
+      <img src="/images/apple-touch-icon.png"></img>
+    </a>
+    <h2><a class="heading list-heading" href="/">Melting Moments</a></h2>
+    <div class="form-item status-plain-outline">
+      <input type="search" name="search" id="search" class="form-input" placeholder="search" aria-label="search"
+        autocomplete="name">
+    </div>
+    <ul class="list list-inline">
+
+
+      <li class="list-item">
+        <a href="/cart.html">Cart</a>
+      </li>
+
+
+
+
+
+
+
+      <li class="list-item">
+        <a href="/index-user.html">Home</a>
+      </li>
+
+
+
+
+
+
+
+      <li class="list-item">
+        <a href="/products.html">Our Products</a>
+      </li>
+
+
+
+
+
+
+
+      <li class="list-item">
+        <a href="/wishlist.html">wishlist</a>
+      </li>
+
+
+
+    </ul>
+    <button class="btn btn-logout">logout</button>
+  </nav>
+
+
+
+
+
+  <header>
+    <h1 id="page-title">Our Products</h1>
+  </header>
+  <main class="main-content grid-container products">
+    <aside class="filter">
+      <form class="form" action="#">
+        <div class="form-item status-plain-outline">
+          <label for="range-price">Price range</label>
+          <input type="range" min="50" max="5000" value="250" class="form-input" id="range-price">
+        </div>
+        <fieldset class="form-item status-plain-outline">
+          <legend>Category</legend>
+          <p>
+            <input type="checkbox" id="white-choco" name="category" value="white-choco">
+            <label for="white-choco">White Chocolate</label>
+          </p>
+          <p>
+            <input type="checkbox" id="dark-choco" name="category" value="dark-choco" checked>
+            <label for="dark-choco">Dark Chocolate</label>
+          </p>
+          <p>
+            <input type="checkbox" id="cookies" name="category" value="cookies">
+            <label for="cookies">Cookies</label>
+          </p>
+        </fieldset>
+        <fieldset class="form-item status-plain-outline">
+          <legend>Rating</legend>
+          <p>
+            <input type="radio" id="r4" name="rating" value="4">
+            <label for="r4">4 stars and above</label>
+          </p>
+          <p>
+            <input type="radio" id="r3" name="rating" value="3">
+            <label for="r3">3 stars and above</label>
+          </p>
+          <p>
+            <input type="radio" id="r2" name="rating" value="2">
+            <label for="r2">2 stars and above</label>
+          </p>
+          <p>
+            <input type="radio" id="r1" name="rating" value="1">
+            <label for="r1">1 star and above</label>
+          </p>
+        </fieldset>
+
+
+        <fieldset class="form-item status-plain-outline">
+          <legend>Sort by price</legend>
+          <p>
+            <input type="radio" id="low" name="sort-price" value="low" checked>
+            <label for="low">low to high</label>
+          </p>
+          <p>
+            <input type="radio" id="high" name="sort-price" value="high">
+            <label for="high">high to low</label>
+          </p>
+        </fieldset>
+
+        <button type="reset" class="btn outline-primary">Reset</button>
+        <button type="submit" class="btn bg-accent">Filter</button>
+      </form>
+    </aside>
+    <section class="product-items">
+
+      <div class="card-container card-buttons-only product-item">
+        <section class="primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#featured #irish #choco</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Irish Choco</h2>
+          </header>
+          <p class="card-body">
+            New Offer: Buy 3 get 1 free!
+            <span>Pieces: 15</span>
+            <span>Weight: 150g</span>
+            <span>Price: &#8377;290/-</span>
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4">★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <button class="btn bg-secondary"><a href="./cart.html">Move to Cart</a></button>
+            <button class="btn outline-secondary"><a href="./wishlist.html">Move to Wishlist</a></button>
+          </section>
+        </section>
+      </div>
+
+
+      <div class="card-container card-buttons-only product-item">
+        <section class="primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#Cookie #strawberry</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Strawberry Delight</h2>
+          </header>
+          <p class="card-body">
+            <span>Pieces: 10</span>
+            <span>Weight: 150g</span>
+            <span>Price: &#8377;100/-</span>
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4">★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <button class="btn bg-secondary"><a href="./cart.html">Move to Cart</a></button>
+            <button class="btn outline-secondary"><a href="./wishlist.html">Move to Wishlist</a></button>
+          </section>
+        </section>
+      </div>
+
+      <div class="card-container card-buttons-only cart-item">
+        <section class="primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#featured #cookie</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Choco-Chip Cookies</h2>
+          </header>
+          <p class="card-body">
+            <span>Pieces: 8</span>
+            <span>Weight: 150g</span>
+            <span>Price: &#8377;125/-</span>
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4">★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <button class="btn bg-secondary"><a href="./cart.html">Move to Cart</a></button>
+            <button class="btn outline-secondary"><a href="./wishlist.html">Save for Later</a></button>
+          </section>
+        </section>
+      </div>
+
+      <div class="card-container card-buttons-only cart-item">
+        <section class="primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#Choco</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Swiss Choco</h2>
+          </header>
+          <p class="card-body">
+            <span>Pieces: 15</span>
+            <span>Weight: 200g</span>
+            <span>Price: &#8377;290/-</span>
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4">★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <button class="btn bg-secondary"><a href="./cart.html">Move to Cart</a></button>
+            <button class="btn outline-secondary"><a href="./wishlist.html">Save for Later</a></button>
+          </section>
+        </section>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer>
+    <p>Developed by Harshna Haswani</p>
+  </footer>
+
+</body>
+
+</html>
