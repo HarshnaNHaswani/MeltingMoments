@@ -89,3 +89,7 @@ td {
   border: 1px solid;
   padding: 1ch;
 }
+
+.nav-site .list-inline{
+  margin-left: auto;
+}
