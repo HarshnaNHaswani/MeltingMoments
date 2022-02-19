@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang=" en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Harshna Haswani">
+  <meta name="description" content="Ecommerce site for chocolates, cookies, and more">
+  <title> Melting Moments — Cart</title>
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="/styles/main.css">
+
+</head>
+
+<body>
+
+
+  
+  <nav class="nav nav-site" role="main">
+    <a class="logo" href="/">
+      <img src="/images/apple-touch-icon.png"></img>
+    </a>
+    <h2><a class="heading list-heading" href="/">Melting Moments</a></h2>
+    <div class="form-item status-plain-outline">
+      <input type="search" name="search" id="search" class="form-input" placeholder="search" aria-label="search"
+        autocomplete="name">
+    </div>
+    <ul class="list list-inline">
+
+
+      <li class="list-item">
+        <a href="/cart.html">Cart</a>
+      </li>
+
+
+
+
+
+
+
+      <li class="list-item">
+        <a href="/index-user.html">Home</a>
+      </li>
+
+
+
+
+
+
+
+      <li class="list-item">
+        <a href="/products.html">Our Products</a>
+      </li>
+
+
+
+
+
+
+
+      <li class="list-item">
+        <a href="/wishlist.html">wishlist</a>
+      </li>
+
+
+
+    </ul>
+    <button class="btn btn-logout">logout</button>
+  </nav>
+
+
+
+
+  <header>
+    <h1 id="page-title">Cart</h1>
+  </header>
+  <main class="main-content cart grid-container">
+    <section class="cart-items">
+      <div class="card-container card-buttons-only cart-item">
+        <section class="primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#featured #cookie</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Choco-Chip Cookies</h2>
+          </header>
+          <p class="card-body">
+            <span>Pieces: 8</span>
+            <span>Weight: 150g</span>
+            <span>Price: &#8377;125/-</span>
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4">★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <label for="quantity">Quantity</label>
+            <div class="quantity">
+              <button class="btn round">-</button>
+              <input type="number" name="quantity" id="quantity" class="form-input quantity-input" value="1">
+              <button class="btn round">+</button>
+            </div>
+            <button class="btn bg-secondary"><a href="/">Remove from Cart</a></button>
+            <button class="btn outline-secondary"><a href="./wishlist.html">Save for Later</a></button>
+          </section>
+        </section>
+      </div>
+      <div class="card-container card-buttons-only cart-item">
+        <section class="primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#Choco</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Swiss Choco</h2>
+          </header>
+          <p class="card-body">
+            <span>Pieces: 15</span>
+            <span>Weight: 200g</span>
+            <span>Price: &#8377;290/-</span>
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4">★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <label for="quantity">Quantity</label>
+            <div class="quantity">
+              <button class="btn round">-</button>
+              <input type="number" name="quantity" id="quantity" class="form-input quantity-input" value="2">
+              <button class="btn round">+</button>
+            </div>
+            <button class="btn bg-secondary"><a href="/">Remove from Cart</a></button>
+            <button class="btn outline-secondary"><a href="./wishlist.html">Save for Later</a></button>
+          </section>
+        </section>
+      </div>
+      <div class="card-container card-buttons-only cart-item">
+        <section class="primary-content">
+          <figure class="media">
+            <img src="https://picsum.photos/400/200" alt="img">
+            <figcaption>#Cookie #strawberry</figcaption>
+          </figure>
+          <header class="card-header">
+            <h2>Strawberry Delight</h2>
+          </header>
+          <p class="card-body">
+            <span>Pieces: 10</span>
+            <span>Weight: 150g</span>
+            <span>Price: &#8377;100/-</span>
+            <div class="rating-wrapper wrap-primary">
+              <input type="radio" name="rating-2" id="solid-star-1">
+              <label for="solid-star-1">★</label>
+              <input type="radio" name="rating-2" id="solid-star-2">
+              <label for="solid-star-2">★</label>
+              <input type="radio" name="rating-2" id="solid-star-3">
+              <label for="solid-star-3">★</label>
+              <input type="radio" name="rating-2" id="solid-star-4">
+              <label for="solid-star-4">★</label>
+              <input type="radio" name="rating-2" id="solid-star-5">
+              <label for="solid-star-5">★</label>
+            </div>
+          </p>
+        </section>
+        <section class="actions card-actions">
+          <section class="action-buttons">
+            <label for="quantity">Quantity</label>
+            <div class="quantity">
+              <button class="btn round">-</button>
+              <input type="number" name="quantity" id="quantity" class="form-input quantity-input" value="1">
+              <button class="btn round">+</button>
+            </div>
+            <button class="btn bg-secondary"><a href="/">Remove from Cart</a></button>
+            <button class="btn outline-secondary"><a href="./wishlist.html">Save for Later</a></button>
+          </section>
+        </section>
+      </div>
+    </section>
+
+
+    <section class="cart-total">
+      <table>
+        <caption>Price details</caption>
+        <tr class="sub-total">
+          <th>Sub-total: <small class="total-items">4 item(s)</small></th>
+          <td>&#8377; 805</td>
+        </tr>
+        <tr class="discount highlight">
+          <th>Discount</th>
+          <td class="discount-amt">- &#8377; 100</td>
+        </tr>
+        <tr class="delivery">
+          <th>Delivery Charges</th>
+          <td> &#8377; 20</td>
+        </tr>
+        <tr class="total">
+          <th>Total</th>
+          <td class="total-amt"><strong> &#8377; 725</strong></td>
+        </tr>
+      </table>
+      <p class="cart-summary">You save <span class="discount-amt highlight">&#8377; 100</span> on this order</p>
+      <button type="submit" class="btn bg-accent">Place Order</button>
+    </section>
+  </main>
+
+
+
+  <footer>
+    <p>Developed by Harshna Haswani</p>
+  </footer>
+
+</body>
+
+</html>
