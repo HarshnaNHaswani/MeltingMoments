@@ -1,7 +1,6 @@
 .grid-container {
   display: grid;
-  gap: 2ch;
-  margin: 2rem;
+  gap: clamp(0.25rem, 1ch, 0.5rem);
   padding: 2ch;
 }
 
