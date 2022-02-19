@@ -107,3 +107,17 @@ td {
 .nav-site .list-inline{
   margin-left: auto;
 }
+.signup .form,
+.login .form,
+.forgot-password .form{
+  margin: auto;
+  margin-top: 5ch;
+}
+
+.form-item{
+  display: inline;
+}
+
+.card-header {
+  text-align: left;
+}
