@@ -1,0 +1,1 @@
+This is a sample ecommerce website. Products: Chocolates and Cookies
