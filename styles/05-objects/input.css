@@ -49,7 +49,7 @@
 
 .form-input:focus::placeholder {
   color: var(--color-primary);
-  opacity: 0.85;
+  opacity: 1;
 }
 
 .form-item {
@@ -89,7 +89,7 @@
 .form-item>label,
 .form-item p,
 .form-item::placeholder {
-  opacity: 0.55;
+  opacity: 0.77;
 }
 
 .form-item input[type=range] {
