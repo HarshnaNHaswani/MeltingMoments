@@ -6,6 +6,10 @@
   display: none;
 }
 
+.highlight {
+  color: var(--color-accent);
+}
+
 .no-expansion {
   max-width: 100%;
 }

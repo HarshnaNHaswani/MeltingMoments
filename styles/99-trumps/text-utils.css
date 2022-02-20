@@ -67,3 +67,9 @@
 .heading-xl {
   font-size: 5em;
 }
+
+.heading,
+.text {
+  line-height: 1.75;
+  text-align: center;
+}
