@@ -63,6 +63,7 @@
 
 .product-items {
   grid-area: products-list;
+  margin-left: 1rem;
 }
 
 /* authentication */
@@ -86,3 +87,42 @@
   align-items: center;
   justify-content: center;
 }
+
+
+/* Brand specific card design */
+.card-horizontal img{
+  width: 100%;
+}
+.card-horizontal .rating-wrapper{
+  margin: 0 1ch 5ch;
+  display: block;
+}
+
+.card-horizontal .btn{
+  width: 80%;
+}
+
+.card-horizontal .card-body {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2ch;
+}
+
+.products
+.cart {
+  width: 90%;
+  margin: auto;
+}
+
+.card-horizontal .action-buttons{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.card-body {
+  line-height: 1.2em;
+  font-size: 1em;
+}
+

@@ -37,6 +37,6 @@
 .wrap-primary label:hover,
 .wrap-primary label:hover ~ label,
 .wrap-primary input:checked ~ label{
-  color: var(--color-primary);
+  color: var(--color-accent);
   opacity: 1;
 }

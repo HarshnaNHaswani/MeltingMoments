@@ -138,10 +138,6 @@
   display: none;
 }
 
-.card-horizontal {
-  width: fit-content;
-}
-
 .card-horizontal .media img {
   border-top-right-radius: 0;
 }
