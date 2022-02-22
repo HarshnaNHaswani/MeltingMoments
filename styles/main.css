@@ -12,7 +12,6 @@
 /* oocss, design patterns, no cosmetics, using classes, Agnostically named e.g. .ui-list */
 
 @import url(05-objects/logo.css);
-@import url(05-objects/page.css);
 @import url(05-objects/avatar.css);
 @import url(05-objects/alert.css);
 @import url(05-objects/badge.css);

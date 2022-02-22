@@ -1,7 +1,7 @@
 /* primary, secondary, accent... */
 :root {
-  --color-primary: #200053;
-  --color-primary-inverse: #c9acac;
+  --color-primary: #1d0a0a;
+  --color-primary-inverse: #b9a0a0;
   --color-secondary: #646668;
   --color-secondary-inverse: #ffffff;
   --color-accent: #d68205;
