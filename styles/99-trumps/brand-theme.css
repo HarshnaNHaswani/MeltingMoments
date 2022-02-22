@@ -130,3 +130,16 @@
 .media img {
   max-height: 300px;
 }
+
+@media screen and (max-width: 56em) {
+  .products.grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "filter-box"
+                        "products-list";
+  } 
+  .cart.grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "cart-total"
+                        "cart-items";
+  } 
+}
